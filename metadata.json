@@ -1,0 +1,7 @@
+{
+  "name": "English Speaking Coach – India School Visit",
+  "description": "A coaching-style speaking lab for Vietnamese teachers preparing for school visits in India. Focuses on B1-level speaking skills using real educational content.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
