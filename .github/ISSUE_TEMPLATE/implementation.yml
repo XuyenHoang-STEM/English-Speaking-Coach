@@ -1,0 +1,56 @@
+name: Implementation slice
+description: A scoped, acceptance-testable product or engineering change
+title: "[Slice]: "
+labels: ["status:ready"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: User outcome
+      description: What becomes possible, and for whom?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and references
+      description: Link relevant product, architecture, AI behavior, designs, or decisions.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: In scope
+      placeholder: "- ..."
+    validations:
+      required: true
+  - type: textarea
+    id: not_scope
+    attributes:
+      label: Out of scope
+      placeholder: "- ..."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Use observable, testable statements.
+      placeholder: "- [ ] ..."
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: Expected automated and manual checks.
+      placeholder: "- npm run build\n- ..."
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and open decisions
+      description: Link blockers or write “None”.
+    validations:
+      required: true
